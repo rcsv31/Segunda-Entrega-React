@@ -1,0 +1,54 @@
+.detailContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.cardDetail {
+  max-width: 600px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.detailBody {
+  padding: 20px;
+}
+
+.detailTitle {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.detailBody img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.detailDescription {
+  font-size: 1em;
+  margin-bottom: 15px;
+}
+
+.detailBody p {
+  font-size: 1.2em;
+  margin-bottom: 15px;
+}
+
+.itemCountContainer {
+  text-align: center;
+}
+
+.spinner-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color="#ff2c6e"
+  height: 100vh; 
+  width:200px
+  height: 200px
+}
